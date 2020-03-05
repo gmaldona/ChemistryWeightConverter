@@ -9,6 +9,6 @@ The valid atomic numbers are between 1-58 & 72-83 (The other elements are Lantha
 ## The Molecule Class
 This class is manages all of the atoms in the program
 
-'''Swift
+'''swift
 private var atoms: [Atom] = []
 '''
