@@ -2,6 +2,6 @@
 An iOS application that converters between grams and moles
 
 ## The Atom Class
-This class holds the properties of an Atom - The atomic number, atomic weight, atomic symbol. 
+This class holds the properties of an Atom - The atomic number, atomic weight, atomic symbol
 
-The valid atomic numbers are between 
+The valid atomic numbers are between 1-58 & 72-83 (The other elements are Lanthanoids, Actinoids, or lab-made elements that aren't common)
