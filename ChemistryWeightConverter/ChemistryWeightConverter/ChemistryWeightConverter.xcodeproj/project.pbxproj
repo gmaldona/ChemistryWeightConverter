@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39B587723F5B87500F3AD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B587623F5B87500F3AD6D /* AppDelegate.swift */; };
+		F39B587923F5B87500F3AD6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B587823F5B87500F3AD6D /* ViewController.swift */; };
+		F39B587C23F5B87500F3AD6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39B587A23F5B87500F3AD6D /* Main.storyboard */; };
+		F39B587E23F5B87500F3AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39B587D23F5B87500F3AD6D /* Assets.xcassets */; };
+		F39B588123F5B87500F3AD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39B587F23F5B87500F3AD6D /* LaunchScreen.storyboard */; };
+		F39B588C23F5B87500F3AD6D /* ChemistryWeightConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B588B23F5B87500F3AD6D /* ChemistryWeightConverterTests.swift */; };
+		F39B589723F5B87500F3AD6D /* ChemistryWeightConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B589623F5B87500F3AD6D /* ChemistryWeightConverterUITests.swift */; };
+		F39B58A523F5B8C000F3AD6D /* Atom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B58A423F5B8C000F3AD6D /* Atom.swift */; };
+		F39B58A723F5B8C600F3AD6D /* CharacterDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B58A623F5B8C600F3AD6D /* CharacterDetection.swift */; };
+		F39B58AA23F5C38900F3AD6D /* Molecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B58A923F5C38900F3AD6D /* Molecule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39B588823F5B87500F3AD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39B586B23F5B87500F3AD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39B587223F5B87500F3AD6D;
+			remoteInfo = ChemistryWeightConverter;
+		};
+		F39B589323F5B87500F3AD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39B586B23F5B87500F3AD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39B587223F5B87500F3AD6D;
+			remoteInfo = ChemistryWeightConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39B587323F5B87500F3AD6D /* ChemistryWeightConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistryWeightConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39B587623F5B87500F3AD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39B587823F5B87500F3AD6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39B587B23F5B87500F3AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39B587D23F5B87500F3AD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39B588023F5B87500F3AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39B588223F5B87500F3AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39B588723F5B87500F3AD6D /* ChemistryWeightConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistryWeightConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39B588B23F5B87500F3AD6D /* ChemistryWeightConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryWeightConverterTests.swift; sourceTree = "<group>"; };
+		F39B588D23F5B87500F3AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39B589223F5B87500F3AD6D /* ChemistryWeightConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistryWeightConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39B589623F5B87500F3AD6D /* ChemistryWeightConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryWeightConverterUITests.swift; sourceTree = "<group>"; };
+		F39B589823F5B87500F3AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39B58A423F5B8C000F3AD6D /* Atom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
+		F39B58A623F5B8C600F3AD6D /* CharacterDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetection.swift; sourceTree = "<group>"; };
+		F39B58A923F5C38900F3AD6D /* Molecule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Molecule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39B587023F5B87500F3AD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B588423F5B87500F3AD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B588F23F5B87500F3AD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39B586A23F5B87500F3AD6D = {
+			isa = PBXGroup;
+			children = (
+				F39B587523F5B87500F3AD6D /* ChemistryWeightConverter */,
+				F39B588A23F5B87500F3AD6D /* ChemistryWeightConverterTests */,
+				F39B589523F5B87500F3AD6D /* ChemistryWeightConverterUITests */,
+				F39B587423F5B87500F3AD6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39B587423F5B87500F3AD6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39B587323F5B87500F3AD6D /* ChemistryWeightConverter.app */,
+				F39B588723F5B87500F3AD6D /* ChemistryWeightConverterTests.xctest */,
+				F39B589223F5B87500F3AD6D /* ChemistryWeightConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39B587523F5B87500F3AD6D /* ChemistryWeightConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F39B58A823F5B8CF00F3AD6D /* Molecule Classes */,
+				F39B587623F5B87500F3AD6D /* AppDelegate.swift */,
+				F39B587823F5B87500F3AD6D /* ViewController.swift */,
+				F39B587A23F5B87500F3AD6D /* Main.storyboard */,
+				F39B587D23F5B87500F3AD6D /* Assets.xcassets */,
+				F39B587F23F5B87500F3AD6D /* LaunchScreen.storyboard */,
+				F39B588223F5B87500F3AD6D /* Info.plist */,
+			);
+			path = ChemistryWeightConverter;
+			sourceTree = "<group>";
+		};
+		F39B588A23F5B87500F3AD6D /* ChemistryWeightConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39B588B23F5B87500F3AD6D /* ChemistryWeightConverterTests.swift */,
+				F39B588D23F5B87500F3AD6D /* Info.plist */,
+			);
+			path = ChemistryWeightConverterTests;
+			sourceTree = "<group>";
+		};
+		F39B589523F5B87500F3AD6D /* ChemistryWeightConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39B589623F5B87500F3AD6D /* ChemistryWeightConverterUITests.swift */,
+				F39B589823F5B87500F3AD6D /* Info.plist */,
+			);
+			path = ChemistryWeightConverterUITests;
+			sourceTree = "<group>";
+		};
+		F39B58A823F5B8CF00F3AD6D /* Molecule Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F39B58A623F5B8C600F3AD6D /* CharacterDetection.swift */,
+				F39B58A423F5B8C000F3AD6D /* Atom.swift */,
+				F39B58A923F5C38900F3AD6D /* Molecule.swift */,
+			);
+			path = "Molecule Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39B587223F5B87500F3AD6D /* ChemistryWeightConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39B589B23F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverter" */;
+			buildPhases = (
+				F39B586F23F5B87500F3AD6D /* Sources */,
+				F39B587023F5B87500F3AD6D /* Frameworks */,
+				F39B587123F5B87500F3AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemistryWeightConverter;
+			productName = ChemistryWeightConverter;
+			productReference = F39B587323F5B87500F3AD6D /* ChemistryWeightConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39B588623F5B87500F3AD6D /* ChemistryWeightConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39B589E23F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverterTests" */;
+			buildPhases = (
+				F39B588323F5B87500F3AD6D /* Sources */,
+				F39B588423F5B87500F3AD6D /* Frameworks */,
+				F39B588523F5B87500F3AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39B588923F5B87500F3AD6D /* PBXTargetDependency */,
+			);
+			name = ChemistryWeightConverterTests;
+			productName = ChemistryWeightConverterTests;
+			productReference = F39B588723F5B87500F3AD6D /* ChemistryWeightConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F39B589123F5B87500F3AD6D /* ChemistryWeightConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39B58A123F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverterUITests" */;
+			buildPhases = (
+				F39B588E23F5B87500F3AD6D /* Sources */,
+				F39B588F23F5B87500F3AD6D /* Frameworks */,
+				F39B589023F5B87500F3AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39B589423F5B87500F3AD6D /* PBXTargetDependency */,
+			);
+			name = ChemistryWeightConverterUITests;
+			productName = ChemistryWeightConverterUITests;
+			productReference = F39B589223F5B87500F3AD6D /* ChemistryWeightConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39B586B23F5B87500F3AD6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gregory Maldonado";
+				TargetAttributes = {
+					F39B587223F5B87500F3AD6D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F39B588623F5B87500F3AD6D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F39B587223F5B87500F3AD6D;
+					};
+					F39B589123F5B87500F3AD6D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F39B587223F5B87500F3AD6D;
+					};
+				};
+			};
+			buildConfigurationList = F39B586E23F5B87500F3AD6D /* Build configuration list for PBXProject "ChemistryWeightConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39B586A23F5B87500F3AD6D;
+			productRefGroup = F39B587423F5B87500F3AD6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39B587223F5B87500F3AD6D /* ChemistryWeightConverter */,
+				F39B588623F5B87500F3AD6D /* ChemistryWeightConverterTests */,
+				F39B589123F5B87500F3AD6D /* ChemistryWeightConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39B587123F5B87500F3AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B588123F5B87500F3AD6D /* LaunchScreen.storyboard in Resources */,
+				F39B587E23F5B87500F3AD6D /* Assets.xcassets in Resources */,
+				F39B587C23F5B87500F3AD6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B588523F5B87500F3AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B589023F5B87500F3AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39B586F23F5B87500F3AD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B587923F5B87500F3AD6D /* ViewController.swift in Sources */,
+				F39B58A523F5B8C000F3AD6D /* Atom.swift in Sources */,
+				F39B58AA23F5C38900F3AD6D /* Molecule.swift in Sources */,
+				F39B587723F5B87500F3AD6D /* AppDelegate.swift in Sources */,
+				F39B58A723F5B8C600F3AD6D /* CharacterDetection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B588323F5B87500F3AD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B588C23F5B87500F3AD6D /* ChemistryWeightConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39B588E23F5B87500F3AD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B589723F5B87500F3AD6D /* ChemistryWeightConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39B588923F5B87500F3AD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39B587223F5B87500F3AD6D /* ChemistryWeightConverter */;
+			targetProxy = F39B588823F5B87500F3AD6D /* PBXContainerItemProxy */;
+		};
+		F39B589423F5B87500F3AD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39B587223F5B87500F3AD6D /* ChemistryWeightConverter */;
+			targetProxy = F39B589323F5B87500F3AD6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39B587A23F5B87500F3AD6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39B587B23F5B87500F3AD6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39B587F23F5B87500F3AD6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39B588023F5B87500F3AD6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39B589923F5B87500F3AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39B589A23F5B87500F3AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39B589C23F5B87500F3AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR4V7US3T7;
+				INFOPLIST_FILE = ChemistryWeightConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39B589D23F5B87500F3AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR4V7US3T7;
+				INFOPLIST_FILE = ChemistryWeightConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F39B589F23F5B87500F3AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemistryWeightConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemistryWeightConverter.app/ChemistryWeightConverter";
+			};
+			name = Debug;
+		};
+		F39B58A023F5B87500F3AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemistryWeightConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemistryWeightConverter.app/ChemistryWeightConverter";
+			};
+			name = Release;
+		};
+		F39B58A223F5B87500F3AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemistryWeightConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemistryWeightConverter;
+			};
+			name = Debug;
+		};
+		F39B58A323F5B87500F3AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemistryWeightConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldonado.ChemistryWeightConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemistryWeightConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39B586E23F5B87500F3AD6D /* Build configuration list for PBXProject "ChemistryWeightConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39B589923F5B87500F3AD6D /* Debug */,
+				F39B589A23F5B87500F3AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39B589B23F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39B589C23F5B87500F3AD6D /* Debug */,
+				F39B589D23F5B87500F3AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39B589E23F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39B589F23F5B87500F3AD6D /* Debug */,
+				F39B58A023F5B87500F3AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39B58A123F5B87500F3AD6D /* Build configuration list for PBXNativeTarget "ChemistryWeightConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39B58A223F5B87500F3AD6D /* Debug */,
+				F39B58A323F5B87500F3AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39B586B23F5B87500F3AD6D /* Project object */;
+}
