@@ -1,6 +1,9 @@
 # ChemistryWeightConverter
 An iOS application that converters between grams and moles
 
+<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300>
+<img src = "ChemistryWeightConverter/ChemistryWeightConverter/MolesToGrams/png" width=300>
+
 ## The Atom Class
 This class holds the properties of an Atom - The atomic number, atomic weight, atomic symbol
 
@@ -11,4 +14,4 @@ This class is manages all of the atoms in the program. The constructor takes in 
 
 The `dissectMolecule()` function takes the String that contains the molecular formula and breaks each character into their respective atom. This works in conjunction with the `findAtomicNumber(atomicSymbol: String)`function which finds the atomic number based on the given atomic symbol.
 
-<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300>
+
