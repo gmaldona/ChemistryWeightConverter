@@ -11,4 +11,4 @@ This class is manages all of the atoms in the program. The constructor takes in 
 
 The `dissectMolecule()` function takes the String that contains the molecular formula and breaks each character into their respective atom. This works in conjunction with the `findAtomicNumber(atomicSymbol: String)`function which finds the atomic number based on the given atomic symbol.
 
-<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300>
+<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300 align = "middle">
