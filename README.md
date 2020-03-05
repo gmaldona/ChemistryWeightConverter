@@ -1,8 +1,7 @@
 # ChemistryWeightConverter
 An iOS application that converters between grams and moles
 
-<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300 style="float: left; margin-right:10px;">
-<img src = "ChemistryWeightConverter/ChemistryWeightConverter/MolesToGrams.png" width=300 style="float: left; margin-right:10px;">
+<img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=300 style="float: left; margin-right: 10px;"/> <img src = "ChemistryWeightConverter/ChemistryWeightConverter/MolesToGrams.png" width=300 style="float: left; margin-right: 10px;"/>
 
 ## The Atom Class
 This class holds the properties of an Atom - The atomic number, atomic weight, atomic symbol
