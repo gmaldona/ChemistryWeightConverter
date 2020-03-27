@@ -1,6 +1,8 @@
 # ChemistryWeightConverter
 An iOS application that converters between grams and moles
 
+The user can enter any chemical formula and the amount: A numerical amount and the units entered either has to be g {grams} or mol {moles}
+
 <img src = "ChemistryWeightConverter/ChemistryWeightConverter/StartUpScreen.png" width=250 style="float: left; margin-right: 10px;"/> <img src = "ChemistryWeightConverter/ChemistryWeightConverter/GramsToMoles.png" width=250 style="float: left; margin-right: 10px;"/> <img src = "ChemistryWeightConverter/ChemistryWeightConverter/MolesToGrams.png" width=250 style="float: left; margin-right: 10px;"/> 
 
 ## The Atom Class
